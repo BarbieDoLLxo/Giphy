@@ -28,7 +28,7 @@
       var animal = $(this).attr("data-animal");
 
        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-        animal + "&api_key=jIn32kMX4Mtcrlvh4Nam44vWk4NBdlhJ&limit=10";
+        animal + "&api_key=jIn32kMX4Mtcrlvh4Nam44vWk4NBdlhJ&limit=10&offset=0&rating=PG-13&lang=en";
 
       $.ajax({
         url: queryURL,
